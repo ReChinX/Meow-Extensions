@@ -1,0 +1,12 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+ext {
+    appName = 'Meow: Shuhui'
+    pkgNameSuffix = 'shuhui'
+    extClass = '.Shuhui'
+    extVersionCode = 1
+    libVersion = '1.0'
+}
+
+apply from: "$rootDir/common.gradle"
