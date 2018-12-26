@@ -1,4 +1,4 @@
-package top.rechinx.meow;
+package top.rechinx.meow.ehentai;
 
 import org.junit.Test;
 

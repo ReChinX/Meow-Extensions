@@ -32,3 +32,12 @@ dependencies {
     def koin_version = '1.0.1'
     compileOnly "org.koin:koin-core:$koin_version"
 }
+
+task makeJar(type: Copy) {
+    delete 'build/libs/library.jar'
+    from('build/intermediates/bundles/release/')
+    into('build/libs/')
+    include('classes.jar')
+    rename ('classes.jar', 'library.jar')
+}
+makeJar.dependsOn(build)

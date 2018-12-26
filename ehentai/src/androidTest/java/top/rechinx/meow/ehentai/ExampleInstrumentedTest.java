@@ -1,4 +1,4 @@
-package top.rechinx.meow;
+package top.rechinx.meow.ehentai;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("top.rechinx.meow.test", appContext.getPackageName());
+        assertEquals("top.rechinx.meow.ehentai", appContext.getPackageName());
     }
 }

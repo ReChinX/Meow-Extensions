@@ -1,1 +1,1 @@
-include ':shuhui', ':library'
+include ':shuhui', ':library', ':ehentai'
